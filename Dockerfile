@@ -12,6 +12,6 @@ RUN apk add alpine-sdk perl tzdata cmake && \
     git clone -b 'release' --depth=1 https://github.com/malaterre/GDCM.git && \
     cd /opt/GDCM/BUILD && \
     cmake -DCMAKE_BUILD_TYPE=Release -DGDCM_BUILD_SHARED_LIBS:BOOL=ON -DGDCM_BUILD_TESTING:BOOL=OFF -DGDCM_BUILD_APPLICATIONS:BOOL=ON /opt/GDCM/GDCM && \
-    make -j && make install && rm -rf /opt/GDCM && \
+    make && make install && rm -rf /opt/GDCM && \
     apk del --purge alpine-sdk perl tzdata cmake && apk add libstdc++
 
