@@ -1,2 +1,2 @@
 # gdcm-itk
-GDCM Alpine Linux Docker container
+Grassroots DICOM library ([GDCM](http://gdcm.sourceforge.net)) Alpine Linux Docker container
