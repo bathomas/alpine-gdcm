@@ -1,5 +1,5 @@
 # GDCM
-# Start with Apline Linux
+# Start with Alpine Linux
 FROM alpine:3.6
 
 MAINTAINER Benjamin A. Thomas <b.a.thomas@ucl.ac.uk>
